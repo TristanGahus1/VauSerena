@@ -1,0 +1,15 @@
+{
+  "White Chicken": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Jalina blancha/Jalinièr",
+  "Brown Chicken": "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Jalina bruna/Jalinièr",
+  "Blue Chicken": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Jalina blava/Jalinièr",
+  "Void Chicken": "1/3/305/305/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/4/null/641/800/Jalina dau neient/Jalinièr",
+  "Duck": "2/5/442/444/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/4000/Canard/Jalinièr",
+  "Rabbit": "4/6/440/446/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/10/5/null/643/8000/Lapin/Jalinièr",
+  "Dinosaur": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Dinosaure/Jalinièr",
+  "White Cow": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Vacha blancha/Estable",
+  "Brown Cow": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Vacha bruna/Estable",
+  "Goat": "2/5/436/438/goat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/4000/Chabra/Estable",
+  "Pig": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16000/Tesson/Estable",
+  "Hog": "1/5/640/-1/pig/24/64/84/64/24/64/84/64/2/false/Barn/32/32/32/32/20/5/null/640/1500/Pòrc/Estable",
+  "Sheep": "3/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Moton/Estable"
+}

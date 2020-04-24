@@ -1,0 +1,2289 @@
+[
+  {
+    "NPCName": "Penny",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [
+          "Pam"
+        ],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Espiar un filme coma mamà me fai tornar en rèir !"
+          },
+          "DuringMovie": {
+            "Script": "/message \"(Paula e Sílvia avisan emb atencion !)\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò es plan de poder tornar far de las chausas en familha !"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ne'n tene pus ! Jacinta e Vincenç 'rèstan pas de ne'n parlar."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/shake Penny 3000/pause 500/message \"Sílvia sembla reténer quauquas lagremas...\"",
+            "Text": "Aó, quò deu èsser totplen dur de quitar sa familha entau...$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Mercés de m'i aver menada, quò me taina de contar aus dròlles coma quò èra plan !"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ò, '{0}' ! Quò sembla plan plasent !"
+          },
+          "DuringMovie": {
+            "Script": "/message \"(Sílvia risoleja)\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Deuriá vertadièrament menar los dròlles zo veire un de quilhs jorns !"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ne'n tene pus, sei prèsta a m'espofidar !"
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "Mas an... ?! A a a a a !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Of, ai 'trapat 'na crampa de tròp rire... !"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei un pauc nerviosa... D'avesat 'vise pas de filmes que fan paur.$s"
+          },
+          "DuringMovie": {
+            "Script": "/shake Penny 3000/pause 500/emote Penny 28",
+            "Text": "Pòde pas espiar...$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Espère que vau pas far de chauchavièlhas questa nuèch !$s"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Oooo, voliá talament lo veire !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Remirable ! Espère que ne'n farán un autre !"
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu, n'ai entendut dire dau ben !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan ! Mercés de z'aver espiat coma ieu !"
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Pòde pas dire que ieu auriá chausit queu-qui, mas vau eissaiar de gardar l'esperit dubèrt..."
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "..."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Sei desolada se t'ai purit lo filme, mas quò m'a pas tròp agradat..."
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ooo, '{0}' ! Z'aviá vist coma {2} !"
+          }
+        },
+        "ID": "reaction_9"
+      },
+      {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Zo veguí coma {2}, quò èra plan !"
+          }
+        },
+        "ID": "reaction_10"
+      },
+      {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mmm, pense que {2} m'aviá menada lo veire..."
+          }
+        },
+        "ID": "reaction_11"
+      }
+    ]
+  },
+  {
+    "NPCName": "Pam",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu, tu. Mercés de m'aver convidada."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "È, quò èra pas tròp meschant !"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Krobus",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Psss... Ep, quò es ieu, Crobàs. M'as reconegut ?$8#$b#Se quauqu'un s'aprueima, quò e tu que parlas, d'acòrd ?$8"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "mysterium_shadow",
+            "Script": "/message \"Crobàs marrona...\"",
+            "Text": "Totas las monas son pas entau !$8"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai pas l'abitud de portar daus vestits... Quò es gaire confortable !$8"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "*Em*... Adieu ! Sei totplen excitat d'èsser au centre de divertiment visuau e de consomar dau bigarroelh petat... exactament coma tu !$8#$b#*Marmusa*... Coma sei ?$8"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "'Laidonc ton espècia aima fixar daus lums trantolants pendent de las oras de temps ? Interessant...$8"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Wizard",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sente un poder arcanic embeurar queu bastiment desser..."
+          },
+          "DuringMovie": {
+            "Script": "/message \"I a 'na beluja dins l'uèlh dau fachilhièr...\"",
+            "Text": "Quand pensam... qu'un tipe ordinari saubrá pas que quò es tot daus imatges bruts e reaus !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Per quilhs que coneissen los mistèris esoterics, quò aviá un sens prigond..."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "..."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "M'as surtit de mas recèrchas per *quò* ?"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "George",
+    "Reactions": [
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Lo jornau li donèt '5 estèlas', 'laidonc li vòle plan laissar 'na chança."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "È ! Quò èra pas mau en fach ! Mercés de m'aver convidat."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mff... Los cinèmas son pus coma èran... Mas lo filme es benlèu plan."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "E. Comparat a la puspart daus filmes de uèi, quò èra pas mau.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mff... Vau far la durmida pendent queu-qui."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Vergonhós ! Lo retrum qu'ausan 'pelar 'filmes' a nòstra epòca... "
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Alex",
+    "Reactions": [
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Disen qu'es amusant, 'laidonc quò me taina de lo veire."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "A ! Quò m'a plan agradat. Mas sabe pas se podriá subreviure nonmàs emb daus palets de glutèn coma fai."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Voliá zo veire dempuèi un moment. Mercés per lo bilhet, @ !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan ! Mas chambas ne'n fermijan enquera d'excitacion."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu, sei content d'anar veire un filme ! Vau aver mestièr de quauquarren per minjar per contra..."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Òu, quò èra plan ben. Mercés de m'aver convidat, @."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Queu filme sembla un pauc vielhanchon, mas perqué pas."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Sabe pas dire se quò èra einuiós o ben tot se quò es ieu que sei pas pro fin per compréner...$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Evelyn",
+    "Reactions": [
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Avant que queu cinèma 'riebe en vila, aviá pas vist un filme dempuèi vint ans !$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai aimat... aura sabes perqué '{0}' es considerat coma un classic."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quò es plan gente de ta part de convidar una vièlha femna au cinèma.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Sei contenta que fajan enquera daus filmes de qualitat... Ai passat un bon moment !"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Los filmes d'orror m'an jamai tròp plagut, mas vau eissaiar de demorar dubèrta d'esperit."
+          },
+          "DuringMovie": {
+            "Script": "/shake Evelyn 3000/pause 500/message \"Evalina se crueba los uèlhs.\"",
+            "Text": "Quò es 'chabat ?$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai degut me 'captar los uèlhs quasiment tot lo temps que quò durèt...$s"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Pierre",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai frotjat en espiar daus vièlhs filmes de sciéncia-ficcion, endonc quò m'interèssa de ne'n veire un modèrne."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "A ! Quò èra pas çò qu'esperava, mas finfinala quò m'a agradat ! Me reconeisse plan dins Musson.$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Trabalhe tot lo temps, 'laidonc quò es plan de far quauquarren coma quò."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Pas mau ! Me demande s'an daus produchs derivats que podriá gardar en estòc..."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Abigail",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "'Riebe pas a creire qu'ajan fach un filme sus lo Rei de la Plana... Espère qu'es plan !"
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "Escota... quela vièlha musica familiara.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Bon lo juèc d'actors èra afrós, mas ai totparièr passat un bon moment.$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei curiosa d'explorar 'nòstre monde belinant'... pas tu ?$h"
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "Zo sabiá pas quò !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra totplen interessant. Los ratons lavaires m'agradèren... son talament minhards !$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Aime los filmes d'orror... Espère que fai pas tròp paur !$h"
+          },
+          "DuringMovie": {
+            "Script": "/shake Abigail 3000/pause 500/message \"Alícia rechana !\"",
+            "Text": "A a ! Quò fai pas paur, mas quò me plai.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra un pauc risible, mas quò m'a agradat.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu ! Mercés de m'aver convidada, aime 'nar au cinèma.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra interessant... Me demande çò qu'auriá fach dins la mèsma situacion ?"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "De çò qu'ai vist de l'anóncia, queu-qui sembla plan einuiós...$6"
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "Esvelha-me se se passa quauquarren d'interessant.$6"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "*Badalha*... Nos sèm embestiats, non ?$6"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Caroline",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai totjorn aimat lo oestèrns, 'laidonc sei totplen excitada de lo veire queu-qui !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan ! Quò fasiá autentic, emb los costumes e tot."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Queu filme sembla gentilhon, esperava que quauqu'un m'invitèsse !"
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "Espère que lo paubre pitit chause 'nirá plan...$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra brave. Mercés plan de m'aver convidada !"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "'{0}'... Ai deguna idèa de qué quò parla ! Espère que quò es pas violent."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra pas mau ! Me faudrá demandar a Alícia quand serai tornada a maison, sei segura que z'a vist.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sente que queu-qui será decebent... Mas vòle totparièr eissaiar."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra colhon... Gatge que quò agradariá a Pèire.$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Harvey",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei nerviós a perpaus de queu filme... *Engola*"
+          },
+          "DuringMovie": {
+            "Script": "/shake Harvey 3000/pause 500/message \"Arvei tremola !\"",
+            "Text": "Ai paur !$8"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai lo vertige, 'laidonc quilhs plans aerians m'an fach quauquarren... Enfin, ai passat un bon moment totparièr.$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "action",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai legit de las lauvenjas sus queu filme dins lo Popular dau Sud..."
+          },
+          "DuringMovie": {
+            "Script": "",
+            "Text": "Quò dona a pensar, è ?"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra incredible ! Sei plan content que m'ajas menat veire quò, @.$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Éspie pas fòrça filmes, mas queu-qui es estat plan aculhit, non ?"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra interessant ! Vau pensar a {0} un bon moment."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Queu filme sembla un pauc intense per ieu...$s"
+          },
+          "DuringMovie": {
+            "Script": "/shake Harvey 3000/pause 500/message \"La pression arteriala d'Arvei ne'n 'chaba pus de montar !\"",
+            "Text": "Me sente feble...$8"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai l'impression que mon còrs brutla après aver vist queu filme...$s"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Gus",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai vist una publicitat per quò a la tele. Quò sembla plasent !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "En tant que professionau, l'obsession bizàrria sus lo minjar a basa de glutèn me faguèt espetar de rire.$h"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quò es pas las fèstas tant qu'as pas vist '{0}' !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra conortant... E d'un costat quò fai paréisser deliciosa quela frucha legendària. M'agradariá de la tastar un jorn."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Disen que queu filme es pas 'convencionau'... Quò vòu dire qu'es pas bon ?$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Qué quò èra la tòca ? Comprene pas. Sei benlèu tròp vièlh.$s"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "*Nifla* *Nifla* ... Sente quauquarren de lechós..."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Pas mau dau tot. Sei plan content d'èsser vengut !"
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Lewis",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Espiava daus filmes de oestèrn quand èra dròlle... Sei content de veire que lo genre es totjorn viu !"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "/message \"Lo maire Loís es perdut dins sas pensadas...\"",
+            "Text": "(Me demande çò qu'utiliza coma biais de cera a mostachas ?)"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "E, quò èra plan ! Quò me tornèt en rèir...$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Lo deputat en persona me conselhèt queu filme !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Fantastic ! An plan presentat la Vau Serena, trobas pas ? Aguèssen mostrat Pampalí...$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "En tant que maire, ai mestièr de saber quaus biais de filmes son mostrats a nòstra comunautat. Nos fau far 'tencion aus esperits tendres de la generacion seguenta !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "A ! Quò èra pas mau dau tot... Diriá que queu-qui es 'aprovat per lo maire'.$h"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mmm... Crese que quò será interessant de veire çò que los jòunes éspian de quilhs temps..."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Eu... me demande se los messatges dins queu filme son ben per nòstra comunautat ?"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Jodi",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai vist queu filme un còp, i a longtemps. Quò es totplen romantic !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra minhard... Lo tèma dau filme ressona en ieu. Mercés de m'i aver menada !"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Espère que los siètis son confortables, sei demorada d'en pès tota la jornada !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò es pas que siá una granda afeccionada de filmes... Mas ai passat un bon moment ! Mercés, @."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sam",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Bondieu, sei excitat ! Ai auvit dire que la musica èra plan."
+          },
+          "DuringMovie": {
+            "Script": "/playSound reward/emote Sam 32/message Sam \"Sam se pòt pas téner de rire !\"",
+            "Text": "Queu filme es comic ! Coma aguèren l'idèa ?$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "*Psss*... Zo dijas pas, mas pòrte las mèsmas chaucetas que Musson."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "'Laidonc t'agradan los filmes d'orror, è ? Sei un pauc susprés !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan ben ! D'avesat sei pas tròp espaurujat per los filmes, mas queu-qui me faguèt un pauc d'efièch... Pense pas que menarai Vincenç lo veire."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu, mercés de m'aver convidat, @... Quò es formidable d'aver un cinèma au vilatge aura."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra pas mau ! Podriá menar Vincenç per lo veire."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quò es un vièlh filme emb totplen de dialògues, è ? Mmm... $s"
+          },
+          "DuringMovie": {
+            "Script": "/message Sam \"Sam juega a sa consòla portabla.\"",
+            "Text": "È ? Ò : Òc-es... Lo filme... interessant$10"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Òc-es... Eu... Queu personatge lai èra interessant... E, eu... eu...$10"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Vincent",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "documentary",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei totplen excitat ! Mamà ditz que pòde aver daus bonbons, tanben !$h"
+          },
+          "DuringMovie": {
+            "Script": "/jump Vincent/pause 400/playSound reward/message \"Vincenç se deguelha plan !\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra amusant ! Zo vòle tornar veire !$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "M... Mas... Queu filme es per los adultes, non ?$s"
+          },
+          "DuringMovie": {
+            "Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"Vincenç remuda sus son sièti.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Me sei embestiat... Ai ren comprés dau tot.$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Kent",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mercés de m'aver convidat au cinèma, @. Quò es pas aisat de tornar a la vita civila, mas m'as plan ajudat a me far sentir planvengut."
+          },
+          "DuringMovie": {
+            "Script": "/emote Kent 32/message \"Maime a un rison, rare, a sas pòtas.\"",
+            "Text": "Quò es plan... Quò me recòrda daus temps mai aisats...$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plasent. Quand sès pres dins un filme, tots los einuègs e los consiers dispareissen."
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei pas segur..."
+          },
+          "DuringMovie": {
+            "Script": "/emote Kent 28/message \"Maime a de las susors frejas...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra complicat per ieu. Pasmens, prese que m'ajas convidat aquí."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Clint",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Queu filme conta una istòria d'amor, non ? *Sospir*$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "guyEnters",
+            "Script": "/emote Clint 12/message \"Martin marrona.\"",
+            "Text": "Mas perqué tomba amorosa de queu tipe ? Complètament irrealista se me demandas mon avís...$3"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Queu filme èra depriment...$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Supause que quò es 'na serada entre lefièrs, è ? Quò vòu dire que deve 'chaptar ieu per minjar ?^Ò... Q... Quò vòu dire que quò es un rendètz-vos endonc ?$4"
+          },
+          "DuringMovie": {
+            "Script": "/message \"Martin beu dins un flascon sens etiqueta.\"",
+            "Text": "Quò es mas... *Sanguta*... dau Joja Còla.$h^*Marmusa*...Se las enduermas te prenen, eu... podes pausar ta tèsta sus mon... mon espatla. È... o pas!$4"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Òu... quò èra pro plasent... non ?$h"
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  },
+  {
+    "NPCName": "Emily",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Me sei minjada una ponhada de cacaus per me preparar per queu filme... Quò es bon per lo cervèu !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Me sente un pauc mai intelligenta qu'avant... Pas tu ?"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quand ai vist l'aficha de queu filme, ai 'gut una sensacion positiva.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Queu filme èra plan espirituau, per quauque costat... Sès pas d'acòrd ? M'a agradat !$h"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei contenta de veire un filme coma tu ! Ai tendéncia a me pèrdre complètament dins çò que vese."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Me sente plan après queu filme... Quò vòu dire qu'èra bon !$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "D'acostumat vau veire daus filmes mai positius, 'laidonc queu-qui será interessant."
+          },
+          "DuringMovie": {
+            "Script": "/message \"Emília marmusa...\"",
+            "Text": "Ioba, se te plai garantís de l'energia negra de queu filme.$7"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Mos nivèus d'energia son plan bas après queu filme...$3"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Haley",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mmm... Quò fai bon qui dedins. Aime 'nar veire daus filmes quand quò es l'ivèrn.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra fòrça romantic."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Mmm... Quò fai bon qui dedins. Aime 'nar veire daus filmes quand quò es l'ivèrn.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Sei contenta que quò se 'chabe plan !"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ò, quò es un de quilhs filmes 'fantastics' lai ?$7"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "*Badalha*... Qué ? Ò... queu filme parlava de qué, desjà ?$7"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Tot lo monde parlan de queu filme, 'laidonc zo voliá veire."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "La darrièra scèna... Qué voliá dire emb quò ?"
+          }
+        },
+        "ID": "reaction_6"
+      }
+    ]
+  },
+  {
+    "NPCName": "Maru",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu, @ ! Me taina de lo veire queu-qui... Espère que n'anèm apréner totplen !$h"
+          },
+          "DuringMovie": {
+            "Script": "/emote Maru 32/playSound reward/message \"Maria pren de las nòtas !\"",
+            "Text": "A, vese... Quò es plan interessant !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan interessant ! Aviá pas idèa que podiam trobar tant de vita dins una vila granda."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quò es un filme de sciéncia-ficcion, vertat ? Una de las chausas que m'agradan mai dins la sciéncia-ficcion quò es de veire totas las tecnologias bizàrrias que pòden crear."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Bon, ai jamai vist quauquarren coma quò dins mon telescòpi... Mas quò èra vertadièrament plan !$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Aime vertadièrament 'nar au cinèma, quitament se lo filme es meschant !$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra 'na chausida interessanta, per la darrièra scèna. Qué pensas que volián dire emb quò ?"
+          }
+        },
+        "ID": "reaction_4"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sebastian",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Òu. Ai auvit dire que queu filme es puslèu sinistre... Me taina de zo veire.$h"
+          },
+          "DuringMovie": {
+            "Script": "/emote Sebastian 32/message \"Sebastian a un rison a las pòtas.\"",
+            "Text": "Quela realizacion es d'un autre nivèu."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Lo melhor filme qu'ai vist dempuèi un moment... Me demande coma faguèren quilhs efièchs especiaus ?$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "*Nauça las espatlas*... L'aficha dau filme es brava, 'laidonc quò me vai."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra pas lo melhor daus filmes, mas ai passat un bon moment... Mercés de m'aver convidat."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Espère qu'es cort..."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò es segurament un brave filme per lo public cible, mas ne'n fau pas partida."
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Robin",
+    "Reactions": [
+      {
+        "Tag": "action",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Me sente un pauc tristona en queste moment, 'laidonc un filme d'accion quò es exactament çò que me fau."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Sei tota requinquilhada aura ! Quò èra plan.$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei pas segura de saber de qué parla queu filme, mas me'n trufe ! Quò es plan de nonmàs surtir de la maison."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra fòrça plasent, @. Sei contenta de z'aver fach."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Demetrius",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Una pita virada dins la nèu fai plan circular lo sang."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "zuzucityexpress_mind_heart",
+            "Script": "/message \"Demètri fruncís las ussas.\"",
+            "Text": "Los desers dau còr... ? Ò ! Voles parlar de 'nivèus elevats d'ocitocina dins lo sistèma limbic'."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "L'art cinematografic a fach daus progrès dempuèi la debuta, trobas pas ?"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Queu filme es supausat se passar dins una societat 'futurista'... Quò será interessant de veire de qué quò sembla !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Bon filme... Mas me demande se i a vertadièrament de la vita alhors que sus quela planeta ?"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Queu d'aquí es fach per ieu... Sabes que me vai agradar.$h"
+          },
+          "DuringMovie": {
+            "Script": "/emote Demetrius 8/message Demetrius \"Demètri se grata lo babinhon...\"",
+            "Text": "Tecnicament, quò es pas exacte...$3"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Bon, an embelit quauques afars, mas d'un biais generau quò èra juste ! Qué que siá, ai passat un bon moment."
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai legit quauquarren a perpaus de queu filme dins lo jornau... Quò sembla pas per ieu. Mas li vau donar 'na chança."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò ten pas d'en pès ! Complètament ascientific !$4"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quitament quand un filme es meschant, es interessant a analisar."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Mmm... Me demande qual aspècte de la motivacion umana es satisfach per lo raconte de queu filme ?$3"
+          }
+        },
+        "ID": "reaction_3"
+      }
+    ]
+  },
+  {
+    "NPCName": "Linus",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Me sente pas a mon aise qui... Espère qu'embèstie degun.$s"
+          },
+          "DuringMovie": {
+            "Script": "/emote Linus 28/message \"Tiston éspia per tèrra...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Perqué 'visar l'ecran quand podes viure quelas chausas tu ?$s"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Me sente pas a mon aise qui... Espère qu'embèstie degun.$s"
+          },
+          "DuringMovie": {
+            "Script": "/emote Linus 28/message \"Tiston éspia per tèrra...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Sei pas acostumat a tant de sensacions... Perdon se sei estat un convidat decebent, @. Mas prese que m'ajas convidat !"
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Dwarf",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ò, aó ! Un palais bastit nonmàs per esbaudir lo monde !"
+          },
+          "DuringMovie": {
+            "Script": "/message \"Lo nan sembla pres dins una transida prigonda...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai ren comprés dau tot, mas los lums parpalhejants èran ipnotizants !"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Marnie",
+    "Reactions": [
+      {
+        "Tag": "winter_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sabe que queu filme me vai agradar ! Quò èra gente de ta part de me convidar, @.$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ò, sei content que la familha ane plan a la fin. E las vachas, tanben !$h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei pas tròp complicada per çò qu'es daus filmes... Tot me plai !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Ai passat un bon moment, @ ! Mercés d'aver pensat a ieu."
+          }
+        },
+        "ID": "reaction_2"
+      }
+    ]
+  },
+  {
+    "NPCName": "Shane",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Bè... Òc-es, crese que quò se pòt far. *Nifla* *nifla* ... Un pitit merende ajudariá."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "PK_villain",
+            "Script": "",
+            "Text": "Ieu sei per lo meschant... *ròt*"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "D'acòrd, zo reconeisse... M'a agradat."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "È. En fach quò m'interèssa de lo veire queu-qui..."
+          },
+          "DuringMovie": {
+            "Script": "/message \"Guilhèm se reten de rire.\"",
+            "Text": "Òc-es, pas mau...$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quand espias un bon filmes, podes obludar tot lo demai... Quò es un present."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Bè... Òc-es, crese que quò se pòt far. *Nifla* *nifla* ... Un pitit merende ajudariá."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "D'acòrd, zo reconeisse... M'a agradat."
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Eu... Quò vai far mau."
+          },
+          "DuringMovie": {
+            "Script": "/emote Shane 28/message \"Guilhèm s'aflaca dins son sièti...\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò me deprimís...$s"
+          }
+        },
+        "ID": "reaction_7"
+      }
+    ]
+  },
+  {
+    "NPCName": "Jas",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei totplen contenta de veire un filme !"
+          },
+          "DuringMovie": {
+            "Script": "/jump Jas/pause 400/playSound reward/message \"Jacinta es joiosa !\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra amusant ! Mercés de m'aver menada !$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quò es un filme per los adultes, non ? Quò vai !"
+          },
+          "DuringMovie": {
+            "Script": "/message \"Jacinta baissa la tèsta e éspia per costats.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Pense que quò èra plan ! Quò aviá... eu... daus bons 'diablòg' ! ... Quò es quò ?"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "S... Sei pas segura d'aver lo drech de 'visar quò...$s"
+          },
+          "DuringMovie": {
+            "Script": "/shake Jas 250/pause 500/shake Jas 250/pause 500/emote Jas 28/message \"Jacinta tremola.\"",
+            "Text": "Ai paur...$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "*Nifla*...$s"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Leah",
+    "Reactions": [
+      {
+        "Tag": "spring_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai auvit dire que i aviá daus braves plans de natura dins queu filme... Ai plan enveja de lo veire !$h"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Subrebrave. Sei quasiment segura d'aver vist ma cabana dins un de quilhs plans aerians de Vau Serena !$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "art",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "like",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei plan intrigada per queu filme... Sei afeccionada per tot çò qu'es misteriós."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan ben ! Lo scenari èra paubre, mas pense que quò voliá parlar a las emocions, pas a la rason."
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei pas segura de çò que deve esperar de queu filme, mas vau demorar dubèrta !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra simple, mas bon... Un pauc coma lo minjar conortant que sèrven au cinèma."
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "A ne'n jutjar per l'aficha dau filme, sembla pro nèci."
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra un pauc bestiassa non ?"
+          }
+        },
+        "ID": "reaction_7"
+      }
+    ]
+  },
+  {
+    "NPCName": "Sandy",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Sei talament contenta d'aver una excusa per venir a Pampalí !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra plan amusant, mercés de m'aver convidada ! Fariá mièlhs de tornar dins pas longtemps"
+          }
+        },
+        "ID": "reaction_1"
+      }
+    ]
+  },
+  {
+    "NPCName": "Elliott",
+    "Reactions": [
+      {
+        "Tag": "art",
+        "Response": "love",
+        "Whitelist": [],
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "fall_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Pense que quò será 'na bona serenada !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Me sente coma se mon esperit èra charjat... Coma se l'energia dau filme m'èra estada transferida. Incredible !"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Ai eschivat totas las informacions a perpaus de queu filme... Aime i anar complètament a l'avuglon !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Plan interessant... Risque d'i pensar un moment."
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "Quò seriá mentir de dire que quò me taina de veire queu filme...$s"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "Quò èra pro einuiós, pensas pas ?"
+          }
+        },
+        "ID": "reaction_5"
+      }
+    ]
+  },
+  {
+    "NPCName": "Willy",
+    "Reactions": [
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "Script": "",
+            "Text": "E e... Refuse jamai un cinèma gratuit !"
+          },
+          "AfterMovie": {
+            "Script": "",
+            "Text": "A, quò me recòrda una istòria que mon paubre pair me contava..."
+          }
+        },
+        "ID": "reaction_0"
+      }
+    ]
+  }
+]

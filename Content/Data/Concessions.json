@@ -1,0 +1,264 @@
+[
+  {
+    "ID": 0,
+    "Name": "Cotton Candy",
+    "DisplayName": "Sucre filat",
+    "Description": "Una gròssa nivol ròsa de coton sucrat.",
+    "Price": 50,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Jasmine Tea",
+    "DisplayName": "Tè au jansemin",
+    "Description": "Tè verd perfumat a las flors de jansemin.",
+    "Price": 50,
+    "ItemTags": [
+      "Drink",
+      "Hot",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Joja Cola",
+    "DisplayName": "Joja Còla",
+    "Description": "Un grand tasson dau produch emblematic de chas Joja.",
+    "Price": 40,
+    "ItemTags": [
+      "Drink",
+      "Cold",
+      "Joja"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Sour Slimes",
+    "DisplayName": "Bonbons de gelarèia agrichons",
+    "Description": "Pitas gelarèias de goma emb de las colors assortidas. Son cubèrtas d'una podra agrichona.",
+    "Price": 80,
+    "ItemTags": [
+      "Sour",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Personal Pizza",
+    "DisplayName": "Pizza individuala",
+    "Description": "Una pita pizza per lo merendon.",
+    "Price": 150,
+    "ItemTags": [
+      "Hot",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "Nachos",
+    "DisplayName": "Nachos",
+    "Description": "Dau fromatge fondut e especiat sus de las crostilhetas fregidas de fresche.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Salmon Burger",
+    "DisplayName": "Hamburger au saumon",
+    "Description": "Una lescha espessa de saumon sus un pan de granas de sesame leugièrament grilhat.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Burger"
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "Ice Cream Sandwich",
+    "DisplayName": "Entrepan de crèma glaçada",
+    "Description": "Glaça a la vanilha entre dos gastèus au chocolat.",
+    "Price": 150,
+    "ItemTags": [
+      "Sandwich",
+      "Sweet",
+      "Cold"
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Popcorn",
+    "DisplayName": "Domaisèlas",
+    "Description": "Gruns de bigarroelh petats, leugièrament saupicats de sau e arrosats de burre.",
+    "Price": 120,
+    "ItemTags": [
+      "Hot",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": "Fries",
+    "DisplayName": "Fritas",
+    "Description": "Daus fins talhons de pompira fregits e salats.",
+    "Price": 100,
+    "ItemTags": [
+      "Hot",
+      "Salty",
+      "Fatty"
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Chocolate Popcorn",
+    "DisplayName": "Domaisèlas au chocolat",
+    "Description": "De las domaisèlas normalas... mas chapeladas de chocolat.",
+    "Price": 130,
+    "ItemTags": [
+      "Hot",
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": "Black Licorice",
+    "DisplayName": "Regalícia ",
+    "Description": "Un bonbon per chaunhar emb una sabor fòrta.",
+    "Price": 25,
+    "ItemTags": null
+  },
+  {
+    "ID": 12,
+    "Name": "Star Cookie",
+    "DisplayName": "Biscuèch en estèla",
+    "Description": "Un biscuèch sablat en forma d'estèla, saupicat de vermicèlis colorats.\n",
+    "Price": 150,
+    "ItemTags": [
+      "Sweet"
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": "Jawbreaker",
+    "DisplayName": "Cassadents",
+    "Description": "Quò es un gròs bonbon dur que pòt téner tot lo filme !\n",
+    "Price": 250,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": "Salted Peanuts",
+    "DisplayName": "Cacauèts salats\n",
+    "Description": "Una pita lechariá classica salada.\n",
+    "Price": 120,
+    "ItemTags": [
+      "Salty"
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": "Hummus Snack Pack",
+    "DisplayName": "Merende de hummus\n",
+    "Description": "Quò es crostilhant e san.\n",
+    "Price": 90,
+    "ItemTags": [
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": "Kale Smoothie",
+    "DisplayName": "Smoothie de chaul frisat",
+    "Description": "Quò es plen de vitaminas e de fibras.\n",
+    "Price": 120,
+    "ItemTags": [
+      "Drink",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 17,
+    "Name": "Apple Slices",
+    "DisplayName": "Talhons de poma",
+    "Description": "Pitits bocins de poma cracants e sucrats.",
+    "Price": 100,
+    "ItemTags": [
+      "Sweet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 18,
+    "Name": "Panzanella Salad",
+    "DisplayName": "Ensalada panzanella ",
+    "Description": "Una ensalada d'estiu de pan e de tomatas.",
+    "Price": 200,
+    "ItemTags": [
+      "Gourmet",
+      "Healthy"
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": "Truffle Popcorn",
+    "DisplayName": "Domaisèlas a la trufa",
+    "Description": "Bigarroelh levat tradicionau, saupicat de sau de trufa.\n",
+    "Price": 180,
+    "ItemTags": [
+      "Gourmet",
+      "Salty"
+    ]
+  },
+  {
+    "ID": 20,
+    "Name": "Cappuccino Mousse Cake",
+    "DisplayName": "Pastís a la mossa de cappuccino",
+    "Description": "Un pitit pastís de chocolat glaçat emb una mossa de cappuccino.",
+    "Price": 220,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 21,
+    "Name": "JojaCorn",
+    "DisplayName": "Domaisèlas Joja",
+    "Description": "Un merende brevetat chas Joja, a basa de bigarroelh, cubèrt de beucòp de saussa au (faus) burre.\n",
+    "Price": 10,
+    "ItemTags": [
+      "Joja"
+    ]
+  },
+  {
+    "ID": 22,
+    "Name": "Stardrop Sorbet",
+    "DisplayName": "Sorbet de seren d'estèla\n",
+    "Description": "Una simpla gota d'esséncia de seren d'estèla fai de queu sorbet una lechotariá formidabla.\n",
+    "Price": 1250,
+    "ItemTags": [
+      "Sweet",
+      "Gourmet"
+    ]
+  },
+  {
+    "ID": 23,
+    "Name": "Rock Candy",
+    "DisplayName": "Suceta de sucre",
+    "Description": "Cristaus de sucre aromatizats fixats a l'entorn d'un baston practic.\n",
+    "Price": 90,
+    "ItemTags": [
+      "Sweet",
+      "Candy"
+    ]
+  }
+]

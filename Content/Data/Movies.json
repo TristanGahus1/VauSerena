@@ -1,0 +1,827 @@
+{
+  "spring_movie_0": {
+    "Title": "Lo Pitit Aubre Valent",
+    "Description": "Una comèdia animada familiala sus un giton lançat dins una aventura magica per venir un aubre !",
+    "Tags": [
+      "family",
+      "comedy"
+    ],
+    "Scenes": [
+      {
+        "Music": "sweet",
+        "Sound": "",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "Lo Pitit Aubre Valent",
+        "ID": "spring0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo pitit aubre valent laissa sa maison. Tesica un moment e se vira, sap que tornará pas d'un moment...",
+        "ID": "spring0_1"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound dustMeep/pause 200/playSound dustMeep/pause 300/playSound dustMeep/pause 100/playSound dustMeep/pause 200/playSound dustMeep",
+        "Text": "Las autras gitas dau bòsc s'assemblan a l'aurièra dau vilatge, e brandissen lors brochons per li dire adieu...!",
+        "ResponsePoint": "sprout_leave",
+        "ID": "spring0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Ò non ! Entau, d'un còp, comença de plòure... ! Lo pitit aubrisson part de córrer dau temps que quò monta brun...",
+        "ResponsePoint": "",
+        "ID": "spring0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "thunder",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "Espaurujat, e desmoralizat per la pluèja que 'rèsta pas, lo pitit aubre valent comença de pèrdre espèr...",
+        "ResponsePoint": "",
+        "ID": "spring0_4"
+      },
+      {
+        "Image": 4,
+        "Music": "echos",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "... Mas qué quò es... ? Lo pitit aubre sent una picason a la cima de sa tèsta... ",
+        "ID": "spring0_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound coin/pause 1000/message \"Benlèu qu'un pauc de pluèja quò èra çò que li mancava per començar son viatge e venir un aubre !\"",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "spring0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 2000,
+        "Script": "",
+        "Text": "Adieu, pitit frotjon !",
+        "ID": "spring0_7"
+      }
+    ]
+  },
+  "fall_movie_0": {
+    "SheetIndex": 1,
+    "Title": "Misterium",
+    "Description": "Éspia darrièr lo vèu de mièjanuèch... Fau zo veire, per zo creire !",
+    "Tags": [
+      "horror",
+      "art"
+    ],
+    "Scenes": [
+      {
+        "Music": "Lava_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "'Misterium'",
+        "ID": "fall0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1500",
+        "Text": "Una siloeta freula dins l'escuretat...",
+        "ID": "fall0_1"
+      },
+      {
+        "Image": -1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 2 1000/playSound batScreech",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "fall0_2"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "",
+        "ID": "fall0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo voide espaciau, desolat e desconegut... Onte de las orrors jamai visdas espèran.",
+        "ID": "fall0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 1 4 400/playSound serpentHit/pause 2000/specificTemporarySprite movieFrame 1 4 150/playSound shadowHit/pause 300/specificTemporarySprite movieFrame 1 4 400/playSound serpentDie",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "fall0_5"
+      },
+      {
+        "Image": -1,
+        "Music": "spring_night_ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieTheater_screen 1 6 false/pause 3000",
+        "Text": "",
+        "ID": "fall0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 3000",
+        "Text": "Una seria de scènas incoerentas, subrenaturalas, passan...",
+        "ResponsePoint": "",
+        "ID": "fall0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "spirits_eve",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound skeletonDie/pause 6000",
+        "Text": "",
+        "Shake": true,
+        "ID": "fall0_8"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowpeep",
+        "Text": "'DEVÈTZ dire a vòstres amics d'anar veire MISTERIUM desser...'",
+        "ID": "fall0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/playSound shadowDie",
+        "Text": "'... O vos vendrai visitar pendent que durmiretz !'",
+        "Shake": true,
+        "ResponsePoint": "mysterium_shadow",
+        "ID": "fall0_10"
+      }
+    ]
+  },
+  "summer_movie_0": {
+    "SheetIndex": 2,
+    "Title": "Lo Viatge dau Rei de la Plana : Lo filme",
+    "Description": "Lo juèc vidèo presat 'rieba sus los ecrans !",
+    "Tags": [
+      "action"
+    ],
+    "Scenes": [
+      {
+        "Music": "Cowboy_OVERWORLD",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 4000",
+        "Text": "'Lo Viatge dau Rei de la Plana : Lo filme'",
+        "ID": "summer0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Sus la vièlha pista pouverosa, enquera un còp, trobam lo Rei de la Plana que garda un charreg plen de tresaurs preciós.",
+        "ID": "summer0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Mas, sens que nòstre eròi zo veja, lo meschant bandit éspia dempuèi las ròchas vesinas...",
+        "ID": "summer0_2"
+      },
+      {
+        "Image": 3,
+        "Music": "cowboy_outlawsong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Finfinala, me vau desbarrassar de queu sherif sufisent e me'n anar emb lo tresaur. Zo merite !'",
+        "ResponsePoint": "PK_villain",
+        "ID": "summer0_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 400/playSound thunder_small",
+        "Text": "'Ooops ! Diriam que quel esbolhament part drech sus lo charreg.'",
+        "ID": "summer0_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo Rei de la Plana auva un luènh rundir feble... Éspia !",
+        "ResponsePoint": "",
+        "ID": "summer0_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"Regde, tira un còp.\"/pause 500/playSound cowboy_gunload/pause 500/playSound Cowboy_monsterDie/pause 500",
+        "Text": "",
+        "ID": "summer0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cowboy_explosion/pause 1000/message \"Mas qué quò es ? L'aiga raja pertot !\"",
+        "Text": "",
+        "ID": "summer0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "none",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400/playSound slimeHit/pause 400",
+        "Text": "I es 'ribat ! La gaulha espessa 'rèsta las pèiras dins sas piadas.",
+        "ResponsePoint": "",
+        "ID": "summer0_8"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "Cowboy_Secret",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo charreg es sauvat.",
+        "ID": "summer0_9"
+      },
+      {
+        "Image": 9,
+        "Music": "Cowboy_singing",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Fin.",
+        "ResponsePoint": "",
+        "ID": "summer0_10"
+      }
+    ]
+  },
+  "summer_movie_1": {
+    "SheetIndex": 3,
+    "Title": "Musson",
+    "Description": "Una comèdia de sciéncia-ficcion absurda centrada sus la vita d'un tipe rondelet d'una autra planeta.",
+    "Tags": [
+      "sci-fi",
+      "comedy",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Music": "movie_wumbus",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Musson'",
+        "ID": "summer1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Musson, totjorn d'aise, s'estira e profita de la doçor dau solelh de sa planeta.",
+        "ID": "summer1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Son servent fidèu, Bacabòt, li balha contunhalament daus palets de glutèn fregits e de la 'saussa roja'.",
+        "ResponsePoint": "",
+        "ID": "summer1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Musson eissaia d'interessar son nebot, Rossèu, aus afars, a la cultura e a las estèlas, mas quò impressiona pas Rossèu.",
+        "ResponsePoint": "",
+        "ID": "summer1_3"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Fchà!'",
+        "ID": "summer1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo filme es una lescha de vita umoristica dins lo monde estranh de Musson, un monde onte la tecnologia e la societat son 'avançats' au mai naut nivèu.",
+        "ResponsePoint": "",
+        "ID": "summer1_5"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound phone/pause 300",
+        "Text": "Totplen de scènas eissaian de sasir l'umor dins l'absurditat de nòstres biais de viure modèrnes.",
+        "ID": "summer1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Mas, maugrat las possibilitats de divertiment quasi infinidas, Musson e son grope d'amics aiman totjorn s'assemblar a l'entorn d'un repais de 'pizza' (facha em 100% de glutèn).",
+        "ResponsePoint": "",
+        "ID": "summer1_7"
+      }
+    ]
+  },
+  "winter_movie_1": {
+    "SheetIndex": 4,
+    "Title": "L'Exprès per Zozo",
+    "Description": "Un classic presat, restaurat emb suènh per los cinèmas modèrnes.",
+    "Tags": [
+      "classic",
+      "romance"
+    ],
+    "Scenes": [
+      {
+        "Music": "movie_classic",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'L'Exprès per Zozo'",
+        "ID": "winter1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound trainWhistle/pause 300",
+        "Text": "L'Exprès per Zozo fai un darrièr viatge vèrs lo Sud, de la còsta gelada... N'a per tres jorns !",
+        "ResponsePoint": "",
+        "ID": "winter1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Una femna jòuna éspia per la fenèstra, emb nostalgia.",
+        "ResponsePoint": "",
+        "ID": "winter1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 800/playSound doorCreak/pause 2000",
+        "Text": "",
+        "ID": "winter1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 2000",
+        "Text": "",
+        "ResponsePoint": "guyEnters",
+        "ID": "winter1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo filme explòra un tèma intemporau... Lo conflicte entre la rason e las emocions.",
+        "ID": "winter1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Segrá lo chamin de la rason, o los desers de son còr ?",
+        "ResponsePoint": "zuzucityexpress_mind_heart",
+        "ID": "winter1_6"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo filme se planta avant que sapcham per de bon...",
+        "ID": "winter1_7"
+      }
+    ]
+  },
+  "winter_movie_0": {
+    "SheetIndex": 5,
+    "Title": "Lo Miracle de Frejestèla",
+    "Description": "Contra vents e subèrnas, una familha garda viu l'esperit de l'Estèla d'Ivèrn...",
+    "Tags": [
+      "family",
+      "classic"
+    ],
+    "Scenes": [
+      {
+        "Music": "winter1",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Lo Miracle de Frejestèla'",
+        "ID": "winter0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Quò es lo ser de l'Estèla d'Ivèrn, e quò pluma l'aucha dempuèi 3 setmanas de reng.",
+        "ID": "winter0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Chas Frejestèla son blocats... Quò es pas possible d'anar en vila. Aürosament, las vachas an pro de fen per téner lo còp.",
+        "ID": "winter0_2"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 200/playSound cow/pause 500",
+        "Text": "",
+        "ID": "winter0_3"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "... Mas ilhs an pus ren per minjar.",
+        "ID": "winter0_4"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound croak/pause 500",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "winter0_5"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Mas totparièr, lo pair Frejestèla braveja los elements traites per 'nar tombar l'aubre de l'estèla d'ivèrn...",
+        "ID": "winter0_6"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 300/playSound axe/pause 400/playSound axchop/pause 400/playSound axchop/pause 800/playSound treethud/pause 300",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "winter0_7"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Sens pus far cas de lor fam, la familha decòra lo pinhièr, e garda la promessa de l'Estèla d'Ivèrn plan viventa.",
+        "ResponsePoint": "",
+        "ID": "winter0_8"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000",
+        "Text": "",
+        "ID": "winter0_9"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Quela nuèch d'aquí, un fenomène estranh...",
+        "ID": "winter0_10"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/specificTemporarySprite coldstarMiracle/pause 500/playSound discoverMineral/pause 3000/message \"Lo jorn seguent, lo mair Frejestèla n'es tota esbalauvida de trobar lo pinhièr ondrat d'una frucha cosmica.\"/pause 500/message \"'Nautres cresiam en l'Estèla d'Ivèrn, e ela nos obludèt pas !'\"",
+        "Text": "",
+        "ID": "winter0_11"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite removeSprite 989",
+        "Text": "Partatgèren lo seren d'estèla. Maugrat sa pita talha, quò èra lo repais lo mai nurissent e deliciós que jamai faguèren de lor vita.",
+        "ID": "winter0_12"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "La familha es sauvada, e l'esperit de l'espèr viu. La promessa de l'Estèla d'ivèrn fuguèt tenguda, un còp de mai...",
+        "ResponsePoint": "",
+        "ID": "winter0_13"
+      }
+    ]
+  },
+  "spring_movie_1": {
+    "SheetIndex": 6,
+    "Title": "Miràudias Naturalas : Explorar nòstre Monde belinant",
+    "Description": "Fasètz una virada per las tèrras de la Republica de Faugièras... De las Islas Faugièras a la vila de Zozo, queu monde es plen de vita !",
+    "Tags": [
+      "documentary",
+      "family"
+    ],
+    "Scenes": [
+      {
+        "Music": "movie_nature",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Miràudias Naturalas : Explorar nòstre Monde belinant'",
+        "ID": "spring1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Las Islas Faugièras, un paradís tropicau a 150 quilomètres de la còsta sud. Las islas se formèren en causa de l'activitat volcanica dins la region, e contunhan de s'espandre...",
+        "ResponsePoint": "",
+        "ID": "spring1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo suau climat de l'ocean austrau permet una biodiversitat extrèma... Per zo dire viste, l'isla sabronda de vita !",
+        "ID": "spring1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Aura montam au Nòrd, dins lo talabast de la vila de Zozo. Quò es un monde de betum e d'acièr, esclairat per los lums de vila.",
+        "ID": "spring1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Las condicions i son benlèu complicadas, mas totparièr i trobam una vita abondosa...",
+        "ResponsePoint": "",
+        "ID": "spring1_4"
+      },
+      {
+        "Image": 5,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Luènh a l'oèst, sola dins la larja Mar de Gemmas, se ten l'Isla Pradariá. Maugrat son nom, quela tèrra aculhís un fum de biòmes naturaus diferents..",
+        "ID": "spring1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "L'isla es coneguda per son importanta populacion de ratons lavaires !",
+        "ResponsePoint": "",
+        "ID": "spring1_6"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Enfin, tornam sus lo continent, per visitar una daus mai plasents renvèrs dau país... Vau Serena.",
+        "ID": "spring1_7"
+      },
+      {
+        "Image": 8,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Lo climat temperat de la vau es perfièch per acialar una larja varietat de creaturas sauvatjas e d'insèctes. Qual endrech remirable !",
+        "ResponsePoint": "",
+        "ID": "spring1_8"
+      }
+    ]
+  },
+  "fall_movie_1": {
+    "SheetIndex": 7,
+    "Title": "Udladas jos l'aiga",
+    "Description": "Un grope de jòunes se'n vai a la descubèrta de l'origina d'un son misteriós. (Autorizacion parentala obligatòria)",
+    "Tags": [
+      "horror"
+    ],
+    "Scenes": [
+      {
+        "Music": "Upper_Ambient",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound cavedrip/pause 1000/playSound cavedrip/spriteText 7 \"Udladas jos l'aiga \"",
+        "Text": "",
+        "ID": "fall1_0"
+      },
+      {
+        "Image": 1,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "'Los imatges seguents fuguèren recuperats d'un camescòpi abandonat a 50 quilomètres au Sud d'Archèla d'Amplanac'",
+        "ResponsePoint": "",
+        "ID": "fall1_1"
+      },
+      {
+        "Image": 2,
+        "Music": "rain",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
+        "Text": "'As auvit ? Pense que quò veniá de quilhs bòscs lai... Anèm...'",
+        "ID": "fall1_2"
+      },
+      {
+        "Image": 3,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/message \"'(Bufar pesant)... Éspia !'\"/playSound leafrustle/specificTemporarySprite woodswalker/pause 1000/playSound rainsound/pause 5000",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "fall1_3"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 500/playSound leafrustle/pause 500/playSound leafrustle/pause 400/playSound leafrustle/pause 500/playSound rainsound",
+        "Text": "(La camèra s'enança dins lo bòsc)",
+        "Shake": true,
+        "ID": "fall1_4"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieFrame 7 5 1700/playSound batScreech/spriteText 4 \"Aó ! \"/pause 20",
+        "Text": "'Ò, quò es mas tu Gabrièu... *bufa* *bufa*... Arrèsta de t'arpiar a mon braç !'",
+        "Shake": true,
+        "ResponsePoint": "",
+        "ID": "fall1_5"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite movieBush/pause 2000/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/specificTemporarySprite shakeBush/playSound leafrustle/pause 700/specificTemporarySprite shakeBushStop/pause 900/message \"'Éspia ! Quò es dins lo boisson...'\"/pause 2000",
+        "Text": "",
+        "ID": "fall1_6"
+      },
+      {
+        "Image": 6,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/specificTemporarySprite shakeBush/playSound leafrustle/specificTemporarySprite evilRabbit/playSound dustMeep/specificTemporarySprite shakeBushStop/spriteText 4 \"Aííí ! \"/pause 500/spriteText 4 \"Ò... \"/pause 500/playSound rainsound/specificTemporarySprite movieFrame 7 7 500/specificTemporarySprite removeSprite 777/specificTemporarySprite removeSprite 778",
+        "Text": "",
+        "ID": "fall1_7"
+      },
+      {
+        "Image": 7,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50",
+        "Text": "(Auvèm de las credadas estofadas e un bruch bizarri de fretament)",
+        "ID": "fall1_8"
+      },
+      {
+        "Image": 4,
+        "Music": "",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "/pause 1000/playSound rainsound/pause 1000/spriteText 4 \"Quò es totjorn lai defòra... \"",
+        "Text": "",
+        "ResponsePoint": "",
+        "ID": "fall1_9"
+      }
+    ]
+  }
+}
