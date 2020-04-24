@@ -1,0 +1,1022 @@
+{
+   "Format": "1.0",
+   "Changes": [
+ 	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Abigail",
+         "FromFile": "Content/Characters/Dialogue/Abigail.json"
+      },
+ 	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Alex",
+         "FromFile": "Content/Characters/Dialogue/Alex.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Caroline",
+         "FromFile": "Content/Characters/Dialogue/Caroline.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Clint",
+         "FromFile": "Content/Characters/Dialogue/Clint.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Demetrius",
+         "FromFile": "Content/Characters/Dialogue/Demetrius.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Dwarf",
+         "FromFile": "Content/Characters/Dialogue/Dwarf.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Elliott",
+         "FromFile": "Content/Characters/Dialogue/Elliott.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Emily",
+         "FromFile": "Content/Characters/Dialogue/Emily.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Evelyn",
+         "FromFile": "Content/Characters/Dialogue/Evelyn.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/George",
+         "FromFile": "Content/Characters/Dialogue/George.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Gil",
+         "FromFile": "Content/Characters/Dialogue/Gil.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Gus",
+         "FromFile": "Content/Characters/Dialogue/Gus.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Haley",
+         "FromFile": "Content/Characters/Dialogue/Haley.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Harvey",
+         "FromFile": "Content/Characters/Dialogue/Harvey.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Jas",
+         "FromFile": "Content/Characters/Dialogue/Jas.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Jodi",
+         "FromFile": "Content/Characters/Dialogue/Jodi.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Kent",
+         "FromFile": "Content/Characters/Dialogue/Kent.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Krobus",
+         "FromFile": "Content/Characters/Dialogue/Krobus.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Leah",
+         "FromFile": "Content/Characters/Dialogue/Leah.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Lewis",
+         "FromFile": "Content/Characters/Dialogue/Lewis.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Linus",
+         "FromFile": "Content/Characters/Dialogue/Linus.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Marnie",
+         "FromFile": "Content/Characters/Dialogue/Marnie.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogue",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogue.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueAbigail.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueAlex",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueAlex.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueElliott",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueElliott.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueEmily",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueEmily.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueHaley",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueHaley.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueHarvey",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueHarvey.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueKrobus",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueKrobus.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueLeah",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueLeah.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueMaru",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueMaru.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialoguePenny",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialoguePenny.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueSam",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueSam.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueSebastian",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueSebastian.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/MarriageDialogueShane",
+         "FromFile": "Content/Characters/Dialogue/MarriageDialogueShane.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Maru",
+         "FromFile": "Content/Characters/Dialogue/Maru.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Mister Qi",
+         "FromFile": "Content/Characters/Dialogue/Mister Qi.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Pam",
+         "FromFile": "Content/Characters/Dialogue/Pam.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Penny",
+         "FromFile": "Content/Characters/Dialogue/Penny.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Pierre",
+         "FromFile": "Content/Characters/Dialogue/Pierre.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/rainy",
+         "FromFile": "Content/Characters/Dialogue/rainy.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Robin",
+         "FromFile": "Content/Characters/Dialogue/Robin.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Sam",
+         "FromFile": "Content/Characters/Dialogue/Sam.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Sandy",
+         "FromFile": "Content/Characters/Dialogue/Sandy.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Sebastian",
+         "FromFile": "Content/Characters/Dialogue/Sebastian.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Shane",
+         "FromFile": "Content/Characters/Dialogue/Shane.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Vincent",
+         "FromFile": "Content/Characters/Dialogue/Vincent.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Willy",
+         "FromFile": "Content/Characters/Dialogue/Willy.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Wizard",
+         "FromFile": "Content/Characters/Dialogue/Wizard.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Achievements",
+         "FromFile": "Content/Data/Achievements.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/BigCraftablesInformation",
+         "FromFile": "Content/Data/BigCraftablesInformation.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Blueprints",
+         "FromFile": "Content/Data/Blueprints.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Boots",
+         "FromFile": "Content/Data/Boots.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Bundles",
+         "FromFile": "Content/Data/Bundles.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/ClothingInformation",
+         "FromFile": "Content/Data/ClothingInformation.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Concessions",
+         "FromFile": "Content/Data/Concessions.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/CookingRecipes",
+         "FromFile": "Content/Data/CookingRecipes.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/CraftingRecipes",
+         "FromFile": "Content/Data/CraftingRecipes.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/EngagementDialogue",
+         "FromFile": "Content/Data/EngagementDialogue.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/ExtraDialogue",
+         "FromFile": "Content/Data/ExtraDialogue.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/FarmAnimals",
+         "FromFile": "Content/Data/FarmAnimals.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Fish",
+         "FromFile": "Content/Data/Fish.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Furniture",
+         "FromFile": "Content/Data/Furniture.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/hats",
+         "FromFile": "Content/Data/hats.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/mail",
+         "FromFile": "Content/Data/mail.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Monsters",
+         "FromFile": "Content/Data/Monsters.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Movies",
+         "FromFile": "Content/Data/Movies.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/MoviesReactions",
+         "FromFile": "Content/Data/MoviesReactions.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/NPCDispositions",
+         "FromFile": "Content/Data/NPCDispositions.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/NPCGiftTastes",
+         "FromFile": "Content/Data/NPCGiftTastes.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/ObjectInformation",
+         "FromFile": "Content/Data/ObjectInformation.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Quests",
+         "FromFile": "Content/Data/Quests.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/SecretNotes",
+         "FromFile": "Content/Data/SecretNotes.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/weapons",
+         "FromFile": "Content/Data/weapons.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/AbandonedJojaMart",
+         "FromFile": "Content/Data/Events/AbandonedJojaMart.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/AnimalShop",
+         "FromFile": "Content/Data/Events/AnimalShop.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/ArchaeologyHouse",
+         "FromFile": "Content/Data/Events/ArchaeologyHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Backwoods",
+         "FromFile": "Content/Data/Events/Backwoods.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/BathHouse_Pool",
+         "FromFile": "Content/Data/Events/BathHouse_Pool.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Beach",
+         "FromFile": "Content/Data/Events/Beach.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/BusStop",
+         "FromFile": "Content/Data/Events/BusStop.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/CommunityCenter",
+         "FromFile": "Content/Data/Events/CommunityCenter.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/ElliottHouse",
+         "FromFile": "Content/Data/Events/ElliottHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Farm",
+         "FromFile": "Content/Data/Events/Farm.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/FarmHouse",
+         "FromFile": "Content/Data/Events/FarmHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Forest",
+         "FromFile": "Content/Data/Events/Forest.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/HaleyHouse",
+         "FromFile": "Content/Data/Events/HaleyHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/HarveyRoom",
+         "FromFile": "Content/Data/Events/HarveyRoom.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Hospital",
+         "FromFile": "Content/Data/Events/Hospital.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/JoshHouse",
+         "FromFile": "Content/Data/Events/JoshHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/LeahHouse",
+         "FromFile": "Content/Data/Events/LeahHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/ManorHouse",
+         "FromFile": "Content/Data/Events/ManorHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Mine",
+         "FromFile": "Content/Data/Events/Mine.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Mountain",
+         "FromFile": "Content/Data/Events/Mountain.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Railroad",
+         "FromFile": "Content/Data/Events/Railroad.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Saloon",
+         "FromFile": "Content/Data/Events/Saloon.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/SamHouse",
+         "FromFile": "Content/Data/Events/SamHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/SandyHouse",
+         "FromFile": "Content/Data/Events/SandyHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/ScienceHouse",
+         "FromFile": "Content/Data/Events/ScienceHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/SebastianRoom",
+         "FromFile": "Content/Data/Events/SebastianRoom.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/SeedShop",
+         "FromFile": "Content/Data/Events/SeedShop.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Sewer",
+         "FromFile": "Content/Data/Events/Sewer.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Sunroom",
+         "FromFile": "Content/Data/Events/Sunroom.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Temp",
+         "FromFile": "Content/Data/Events/Temp.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Tent",
+         "FromFile": "Content/Data/Events/Tent.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Town",
+         "FromFile": "Content/Data/Events/Town.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Trailer",
+         "FromFile": "Content/Data/Events/Trailer.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Trailer_Big",
+         "FromFile": "Content/Data/Events/Trailer_Big.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/WizardHouse",
+         "FromFile": "Content/Data/Events/WizardHouse.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/Woods",
+         "FromFile": "Content/Data/Events/Woods.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/fall16",
+         "FromFile": "Content/Data/Festivals/fall16.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/fall27",
+         "FromFile": "Content/Data/Festivals/fall27.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/FestivalDates",
+         "FromFile": "Content/Data/Festivals/FestivalDates.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/spring13",
+         "FromFile": "Content/Data/Festivals/spring13.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/spring24",
+         "FromFile": "Content/Data/Festivals/spring24.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/summer11",
+         "FromFile": "Content/Data/Festivals/summer11.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/summer28",
+         "FromFile": "Content/Data/Festivals/summer28.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/winter8",
+         "FromFile": "Content/Data/Festivals/winter8.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Festivals/winter25",
+         "FromFile": "Content/Data/Festivals/winter25.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/TV/CookingChannel",
+         "FromFile": "Content/Data/TV/CookingChannel.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/TV/InterviewShow",
+         "FromFile": "Content/Data/TV/InterviewShow.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/TV/TipChannel",
+         "FromFile": "Content/Data/TV/TipChannel.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/Billboard",
+         "FromFile": "Content/LooseSprites/Billboard.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/ControllerMaps",
+         "FromFile": "Content/LooseSprites/ControllerMaps.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "Content/LooseSprites/Cursors.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/JojaCDForm",
+         "FromFile": "Content/LooseSprites/JojaCDForm.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "Content/LooseSprites/JunimoNote.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/LanguageButtons",
+         "FromFile": "Content/LooseSprites/LanguageButtons.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/Logo",
+         "FromFile": "Content/LooseSprites/Logo.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/Movies",
+         "FromFile": "Content/LooseSprites/Movies.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/temporary_sprites_1",
+         "FromFile": "Content/LooseSprites/temporary_sprites_1.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/yellowLettersLogo",
+         "FromFile": "Content/LooseSprites/yellowLettersLogo.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/bathhouse_tiles",
+         "FromFile": "Content/Maps/bathhouse_tiles.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/coopTiles",
+         "FromFile": "Content/Maps/coopTiles.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/DesertTiles",
+         "FromFile": "Content/Maps/DesertTiles.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/fall_beach",
+         "FromFile": "Content/Maps/fall_beach.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/fall_outdoorsTileSheet",
+         "FromFile": "Content/Maps/fall_outdoorsTileSheet.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/fall_town",
+         "FromFile": "Content/Maps/fall_town.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/Festivals",
+         "FromFile": "Content/Maps/Festivals.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/samshowtiles",
+         "FromFile": "Content/Maps/samshowtiles.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/spring_beach",
+         "FromFile": "Content/Maps/spring_beach.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/spring_outdoorsTileSheet",
+         "FromFile": "Content/Maps/spring_outdoorsTileSheet.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/spring_town",
+         "FromFile": "Content/Maps/spring_town.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/springobjects",
+         "FromFile": "Content/Maps/springobjects.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/stadium_tiles",
+         "FromFile": "Content/Maps/stadium_tiles.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/summer_beach",
+         "FromFile": "Content/Maps/summer_beach.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/summer_outdoorsTileSheet",
+         "FromFile": "Content/Maps/summer_outdoorsTileSheet.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/summer_town",
+         "FromFile": "Content/Maps/summer_town.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/TownIndoors",
+         "FromFile": "Content/Maps/TownIndoors.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/townInterior",
+         "FromFile": "Content/Maps/townInterior.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/winter_beach",
+         "FromFile": "Content/Maps/winter_beach.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/winter_outdoorsTileSheet",
+         "FromFile": "Content/Maps/winter_outdoorsTileSheet.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Maps/winter_town",
+         "FromFile": "Content/Maps/winter_town.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Minigames/Intro",
+         "FromFile": "Content/Minigames/Intro.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Minigames/jojacorps",
+         "FromFile": "Content/Minigames/jojacorps.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Minigames/MineCart",
+         "FromFile": "Content/Minigames/MineCart.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Minigames/TitleButtons",
+         "FromFile": "Content/Minigames/TitleButtons.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/animationDescriptions",
+         "FromFile": "Content/Strings/animationDescriptions.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Buildings",
+         "FromFile": "Content/Strings/Buildings.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Characters",
+         "FromFile": "Content/Strings/Characters.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/credits",
+         "FromFile": "Content/Strings/credits.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Events",
+         "FromFile": "Content/Strings/Events.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/FarmAnimals",
+         "FromFile": "Content/Strings/FarmAnimals.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Lexicon",
+         "FromFile": "Content/Strings/Lexicon.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Locations",
+         "FromFile": "Content/Strings/Locations.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Notes",
+         "FromFile": "Content/Strings/Notes.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/NPCNames",
+         "FromFile": "Content/Strings/NPCNames.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Objects",
+         "FromFile": "Content/Strings/Objects.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Quests",
+         "FromFile": "Content/Strings/Quests.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/SpeechBubbles",
+         "FromFile": "Content/Strings/SpeechBubbles.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/StringsFromCSFiles",
+         "FromFile": "Content/Strings/StringsFromCSFiles.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/StringsFromMaps",
+         "FromFile": "Content/Strings/StringsFromMaps.json"
+      }, 
+ 	  {
+         "Action": "Load",
+         "Target": "Strings/UI",
+         "FromFile": "Content/Strings/UI.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Abigail",
+         "FromFile": "Content/Strings/schedules/Abigail.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Alex",
+         "FromFile": "Content/Strings/schedules/Alex.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Caroline",
+         "FromFile": "Content/Strings/schedules/Caroline.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Clint",
+         "FromFile": "Content/Strings/schedules/Clint.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Demetrius",
+         "FromFile": "Content/Strings/schedules/Demetrius.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Elliott",
+         "FromFile": "Content/Strings/schedules/Elliott.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Emily",
+         "FromFile": "Content/Strings/schedules/Emily.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Evelyn",
+         "FromFile": "Content/Strings/schedules/Evelyn.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/George",
+         "FromFile": "Content/Strings/schedules/George.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Gus",
+         "FromFile": "Content/Strings/schedules/Gus.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Haley",
+         "FromFile": "Content/Strings/schedules/Haley.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Harvey",
+         "FromFile": "Content/Strings/schedules/Harvey.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Jas",
+         "FromFile": "Content/Strings/schedules/Jas.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Jodi",
+         "FromFile": "Content/Strings/schedules/Jodi.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Leah",
+         "FromFile": "Content/Strings/schedules/Leah.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Lewis",
+         "FromFile": "Content/Strings/schedules/Lewis.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Linus",
+         "FromFile": "Content/Strings/schedules/Linus.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Marnie",
+         "FromFile": "Content/Strings/schedules/Marnie.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Maru",
+         "FromFile": "Content/Strings/schedules/Maru.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Pam",
+         "FromFile": "Content/Strings/schedules/Pam.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Penny",
+         "FromFile": "Content/Strings/schedules/Penny.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Pierre",
+         "FromFile": "Content/Strings/schedules/Pierre.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Robin",
+         "FromFile": "Content/Strings/schedules/Robin.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Sam",
+         "FromFile": "Content/Strings/schedules/Sam.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Sebastian",
+         "FromFile": "Content/Strings/schedules/Sebastian.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Shane",
+         "FromFile": "Content/Strings/schedules/Shane.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Vincent",
+         "FromFile": "Content/Strings/schedules/Vincent.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Willy",
+         "FromFile": "Content/Strings/schedules/Willy.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "TileSheets/furniture",
+         "FromFile": "Content/TileSheets/furniture.png"
+      },
+	  
+	  
+   ]
+}

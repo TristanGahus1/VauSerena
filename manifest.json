@@ -1,0 +1,13 @@
+{
+   "Name": "Vau Serena (Occitan version)",
+   "Author": "Danís Chapduèlh",
+   "Version": "1.4",
+   "Description": "Vau Serena is an Occitan version of Stardew Valley. All the names, myths, creatures, are now references to the Occitan culture. All the languages of the game are replaced by the Occitan language.",
+   "UniqueID": "DanisChapduelh.VauSerena",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["GitHub:TristanGahus1/VauSerena", "Nexus:5350"],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.0.0"
+  }
+}
