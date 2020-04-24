@@ -1,0 +1,18 @@
+{
+  "TryingToSleep": "{0} eissaia de durmir",
+  "MoodMessage_NewHome_Baby_Male": "{0} es enquera un pauc maladrech, per çò qu'es juste nascut. Es curiós de son monde.",
+  "MoodMessage_NewHome_Baby_Female": "{0} es enquera un pauc maladrecha, per çò qu'es juste nascuda. Es curiosa de son monde.",
+  "MoodMessage_NewHome_Adult_Male_1": "{0} sembla curiós, mas prudent. S'acostuma a sa novèla maison.",
+  "MoodMessage_NewHome_Adult_Male_2": "{0} sembla curiós, mas un pauc prudent. Quò es un monde novèu e estranh.",
+  "MoodMessage_NewHome_Adult_Female_1": "{0} sembla curiosa, mas prudenta. S'acostuma a sa novèla maison.",
+  "MoodMessage_NewHome_Adult_Female_2": "{0} sembla curiosa, mas un pauc prudenta. Quò es un monde novèu e estranh.",
+  "MoodMessage_LeftOutsideAtNight_Male": "{0} demorèt defòra emb la pòrta barrada la nuèch passada... Es renós.",
+  "MoodMessage_LeftOutsideAtNight_Female": "{0} demorèt defòra emb la pòrta barrada la nuèch passada... Es renosa.",
+  "MoodMessage_DisturbedByDog_Male": "{0} sembla nerviós e ferotge. Diriam que quauquarren de mau se fuguèsse passat questa nuèch.",
+  "MoodMessage_DisturbedByDog_Female": "{0} sembla nerviosa e ferotja. Diriam que quauquarren de mau se fuguèsse passat questa nuèch.",
+  "MoodMessage_Hungry1": "{0} sembla de meschant piau.",
+  "MoodMessage_Hungry2": "{0} sembla aver perdut un pauc de pes.",
+  "MoodMessage_Sad": "{0} a la mina trista.",
+  "MoodMessage_Fine": "{0} sembla plan.",
+  "MoodMessage_Happy": "{0} es dins sas bonas uèi !"
+}

@@ -1,0 +1,15 @@
+{
+  "UnderConstruction": "Construccion en cors.",
+  "DismountBeforeEntering": "Davala avant d'entrar",
+  "PiecesOfHay": "Plejons de fen : {0}/{1}",
+  "AddedHay": "As apondut {0} plejons de fen au silo.",
+  "MillFull": "I a pus de plaça",
+  "CantMill": "Quò se pòt pas mòure",
+  "NeedSilo": "As mestièr d'un silo",
+  "CantEnter": "Quò es pas possible d'entrar aura",
+  "WrongFishType": "{0} vòu pas viure dins lo peschièr {1}.",
+  "WrongFishTypeCoral": "{0} pòt nonmàs viure dins un peschièr {0}.",
+  "CantPutInPonds": "{0} seriá pas a son aise aquí dedins.",
+  "NoFish": "Daus peissons pòden viure dins queu peschièr.",
+  "PondFull": "Queu peschièr es plen."
+}
