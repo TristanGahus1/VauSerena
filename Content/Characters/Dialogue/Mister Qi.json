@@ -1,9 +1,17 @@
 {
-  "Mon": "Contunha entau. Pense que vendràs una estèla.#$e#Demande-me s'as mestièr de quauquarren.",
-  "Tue": "Sabiá que 'chabariàs per venir aquí. Segur, deguí rendre las chausas un pauc mai malaisadas per t'incitar a tocar l'excelléncia.",
-  "Wed": "Nascut dròlle ordinari, prenguí la decision d'abora dins ma vita de venir un òme extraordinari.",
-  "Thu": "Òu. Parla a degun de quel endrech, d'acòrd ? Ne'n vòle gardar... l'exclusivitat.#$e#Gardaràs un secrèt per ton vièlh amic M. Qi, n'es-quò pas ?",
-  "Fri": "Te plantes jamai d'eissaiar de tocar la perfeccion.#$e#Acontenta-te nonmàs de l'excelléncia dins tot çò que fas.",
-  "Sat": "Passa quand te voles destendre.",
-  "Sun": "Contunha de trabalhar dur e benlèu 'chabaràs coma ieu un jorn."
+    "Mon": "Contunha entau. Pense que vendràs una estèla.#$e#Demande-me s'as mestièr de quauquaren.",
+    "Tue": "Sabiá que 'chabariàs per venir aquí. Segur, deguí rendre las chausas un pauc mai malaisadas per t'incitar a tocar l'excelléncia.",
+    "Wed": "Nascut dròlle ordinari, prenguí la decision d'abora dins ma vita de venir un òme extraordinari.",
+    "Thu": "Òu. Parla a degun de quel endrech, d'acòrd ? Ne'n vòle gardar... l'exclusivitat.#$e#Gardaràs un secrèt per ton vièlh amic M. Qi, n'es-quò pas ?",
+    "Fri": "Te plantes jamai d'eissaiar de tocar la perfeccion.#$e#Acontenta-te nonmàs de l'excelléncia dins tot çò que fas.",
+    "Sat": "Passa quand te vòles destendre.",
+    "Sun": "Contunha de trabalhar dur e benlèu 'chabaràs coma ieu un jorn.",
+    "married": "Quò èra una ceremonia plan jauventa, @.#$b#...Qué ? M'i as pas vist ?#$b#A a a... Pòdes pas gardar un secrèt de M. Qi.",
+    "QiNutRoom_Mon": "N'i a mai dins queu monde que çò que veses. Un jorn, zo comprendràs.#$b#Aura, contunha de far dau mièlhs que pòdes.",
+    "QiNutRoom_Tue": "Ne'n sei 'ribat onte ne'n sei per la sola fòrça de ma volontat.#$b#Veses... L'esperit es una espleita plan potenta.#$b#En fach, quò es l'espleita la mai potenta de nòstra realitat... e au delai.",
+    "QiNutRoom_Wed": "Sei impressionat per ta nastretat... Te fauguèt toplen de cacaus per 'ribar quí.",
+    "QiNutRoom_Thu": "Onte anèsses... Sei totjorn darrièr lo ridèu, a m'assegurar que l'espectacle es interessant. A a a...#$b#O pas... quau sap ?",
+    "QiNutRoom_Fri": "Pausa tos uèlhs sus l'estèla mai luènha, que quò siá ton objectiu.#$b#Quò es totjorn possible d'anar mai luènh que çò que cresiàs.",
+    "QiNutRoom_Sat": "I a de las chausas que subrepassan lo temps e l'espaci. Una sensacion unica dins lo còr... Un suchetadís de çò que viu per delai.",
+    "QiNutRoom_Sun": "A man mança, trobaràs un panèu emb mos desfís especiaus... Talhats juste per tu..#$b#A man drecha, un ensemble de prètz fantastics per quilhs que reüssissen mos desfís...#$b#Bona chança."
 }
