@@ -1,5 +1,5 @@
 {
-   "Format": "1.0",
+   "Format": "2.0.0",
    "Changes": [
  	  {
          "Action": "Load",
@@ -95,6 +95,16 @@
          "Action": "Load",
          "Target": "Characters/Dialogue/Leah",
          "FromFile": "Content/Characters/Dialogue/Leah.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/Leo",
+         "FromFile": "Content/Characters/Dialogue/Leo.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Characters/Dialogue/LeoMainland",
+         "FromFile": "Content/Characters/Dialogue/LeoMainland.json"
       },
 	  {
          "Action": "Load",
@@ -283,11 +293,6 @@
       },
 	  {
          "Action": "Load",
-         "Target": "Data/Concessions",
-         "FromFile": "Content/Data/Concessions.json"
-      },
-	  {
-         "Action": "Load",
          "Target": "Data/CookingRecipes",
          "FromFile": "Content/Data/CookingRecipes.json"
       },
@@ -295,8 +300,7 @@
          "Action": "Load",
          "Target": "Data/CraftingRecipes",
          "FromFile": "Content/Data/CraftingRecipes.json"
-      },
-	  {
+      },	  {
          "Action": "Load",
          "Target": "Data/EngagementDialogue",
          "FromFile": "Content/Data/EngagementDialogue.json"
@@ -305,21 +309,6 @@
          "Action": "Load",
          "Target": "Data/ExtraDialogue",
          "FromFile": "Content/Data/ExtraDialogue.json"
-      },
-	  {
-         "Action": "Load",
-         "Target": "Data/FarmAnimals",
-         "FromFile": "Content/Data/FarmAnimals.json"
-      },
-	  {
-         "Action": "Load",
-         "Target": "Data/Fish",
-         "FromFile": "Content/Data/Fish.json"
-      },
-	  {
-         "Action": "Load",
-         "Target": "Data/Furniture",
-         "FromFile": "Content/Data/Furniture.json"
       },
 	  {
          "Action": "Load",
@@ -335,16 +324,6 @@
          "Action": "Load",
          "Target": "Data/Monsters",
          "FromFile": "Content/Data/Monsters.json"
-      },
-	  {
-         "Action": "Load",
-         "Target": "Data/Movies",
-         "FromFile": "Content/Data/Movies.json"
-      },
-	  {
-         "Action": "Load",
-         "Target": "Data/MoviesReactions",
-         "FromFile": "Content/Data/MoviesReactions.json"
       },
 	  {
          "Action": "Load",
@@ -370,11 +349,6 @@
          "Action": "Load",
          "Target": "Data/SecretNotes",
          "FromFile": "Content/Data/SecretNotes.json"
-      },
-	  {
-         "Action": "Load",
-         "Target": "Data/weapons",
-         "FromFile": "Content/Data/weapons.json"
       },
 	  {
          "Action": "Load",
@@ -408,6 +382,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Data/Events/BoatTunnel",
+         "FromFile": "Content/Data/Events/BoatTunnel.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Data/Events/BusStop",
          "FromFile": "Content/Data/Events/BusStop.json"
       },
@@ -433,6 +412,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Data/Events/FishShop",
+         "FromFile": "Content/Data/Events/FishShop.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Data/Events/Forest",
          "FromFile": "Content/Data/Events/Forest.json"
       },
@@ -450,6 +434,26 @@
          "Action": "Load",
          "Target": "Data/Events/Hospital",
          "FromFile": "Content/Data/Events/Hospital.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/IslandHut",
+         "FromFile": "Content/Data/Events/IslandHut.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/IslandNorth",
+         "FromFile": "Content/Data/Events/IslandNorth.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/IslandSouth",
+         "FromFile": "Content/Data/Events/IslandSouth.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/IslandWest",
+         "FromFile": "Content/Data/Events/IslandWest.json"
       },
 	  {
          "Action": "Load",
@@ -475,6 +479,11 @@
          "Action": "Load",
          "Target": "Data/Events/Mountain",
          "FromFile": "Content/Data/Events/Mountain.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Data/Events/QiNutRoom",
+         "FromFile": "Content/Data/Events/QiNutRoom.json"
       },
 	  {
          "Action": "Load",
@@ -608,11 +617,6 @@
       },
 	  {
          "Action": "Load",
-         "Target": "Data/TV/InterviewShow",
-         "FromFile": "Content/Data/TV/InterviewShow.json"
-      },
-	  {
-         "Action": "Load",
          "Target": "Data/TV/TipChannel",
          "FromFile": "Content/Data/TV/TipChannel.json"
       },
@@ -633,6 +637,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "LooseSprites/Cursors2",
+         "FromFile": "Content/LooseSprites/Cursors2.png"
+      },
+	  {
+         "Action": "Load",
          "Target": "LooseSprites/JojaCDForm",
          "FromFile": "Content/LooseSprites/JojaCDForm.png"
       },
@@ -648,13 +657,23 @@
       },
 	  {
          "Action": "Load",
-         "Target": "LooseSprites/Logo",
-         "FromFile": "Content/LooseSprites/Logo.png"
+         "Target": "LooseSprites/logo",
+         "FromFile": "Content/LooseSprites/logo.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/MobileAtlas_manually_made",
+         "FromFile": "Content/LooseSprites/MobileAtlas_manually_made.png"
       },
 	  {
          "Action": "Load",
          "Target": "LooseSprites/Movies",
          "FromFile": "Content/LooseSprites/Movies.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "LooseSprites/raccoon_bundle_menu",
+         "FromFile": "Content/LooseSprites/raccoon_bundle_menu.png"
       },
 	  {
          "Action": "Load",
@@ -703,6 +722,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Maps/FishingDerbyTiles_international",
+         "FromFile": "Content/Maps/FishingDerbyTiles_international.png"
+      },
+	  {
+         "Action": "Load",
          "Target": "Maps/samshowtiles",
          "FromFile": "Content/Maps/samshowtiles.png"
       },
@@ -748,11 +772,6 @@
       },
 	  {
          "Action": "Load",
-         "Target": "Maps/TownIndoors",
-         "FromFile": "Content/Maps/TownIndoors.png"
-      },
-	  {
-         "Action": "Load",
          "Target": "Maps/townInterior",
          "FromFile": "Content/Maps/townInterior.png"
       },
@@ -793,6 +812,16 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Minigames/Xb1ProfileButton",
+         "FromFile": "Content/Minigames/Xb1ProfileButton.png"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/1_6_Strings",
+         "FromFile": "Content/Strings/1_6_Strings.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Strings/animationDescriptions",
          "FromFile": "Content/Strings/animationDescriptions.json"
       },
@@ -800,6 +829,11 @@
          "Action": "Load",
          "Target": "Strings/Buildings",
          "FromFile": "Content/Strings/Buildings.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/BundleNames",
+         "FromFile": "Content/Strings/BundleNames.json"
       },
 	  {
          "Action": "Load",
@@ -813,6 +847,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Strings/EnchantmentNames",
+         "FromFile": "Content/Strings/EnchantmentNames.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Strings/Events",
          "FromFile": "Content/Strings/Events.json"
       },
@@ -823,6 +862,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Strings/Furniture",
+         "FromFile": "Content/Strings/Furniture.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Strings/Lexicon",
          "FromFile": "Content/Strings/Lexicon.json"
       },
@@ -830,6 +874,21 @@
          "Action": "Load",
          "Target": "Strings/Locations",
          "FromFile": "Content/Strings/Locations.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/MovieConcessions",
+         "FromFile": "Content/Strings/MovieConcessions.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/MovieReactions",
+         "FromFile": "Content/Strings/MovieReactions.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Movies",
+         "FromFile": "Content/Strings/Movies.json"
       },
 	  {
          "Action": "Load",
@@ -848,8 +907,28 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Strings/Pants",
+         "FromFile": "Content/Strings/Pants.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Strings/Quests",
          "FromFile": "Content/Strings/Quests.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Shirts",
+         "FromFile": "Content/Strings/Shirts.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/SimpleNonVillagerDialogues",
+         "FromFile": "Content/Strings/SimpleNonVillagerDialogues.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/SpecialOrderStrings",
+         "FromFile": "Content/Strings/SpecialOrderStrings.json"
       },
 	  {
          "Action": "Load",
@@ -865,11 +944,26 @@
          "Action": "Load",
          "Target": "Strings/StringsFromMaps",
          "FromFile": "Content/Strings/StringsFromMaps.json"
-      }, 
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Tools",
+         "FromFile": "Content/Strings/Tools.json"
+      },
  	  {
          "Action": "Load",
          "Target": "Strings/UI",
          "FromFile": "Content/Strings/UI.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/Weapons",
+         "FromFile": "Content/Strings/Weapons.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/WorldMap",
+         "FromFile": "Content/Strings/WorldMap.json"
       },
 	  {
          "Action": "Load",
@@ -948,6 +1042,11 @@
       },
 	  {
          "Action": "Load",
+         "Target": "Strings/schedules/Leo",
+         "FromFile": "Content/Strings/schedules/Leo.json"
+      },
+	  {
+         "Action": "Load",
          "Target": "Strings/schedules/Lewis",
          "FromFile": "Content/Strings/schedules/Lewis.json"
       },
@@ -990,6 +1089,11 @@
          "Action": "Load",
          "Target": "Strings/schedules/Sam",
          "FromFile": "Content/Strings/schedules/Sam.json"
+      },
+	  {
+         "Action": "Load",
+         "Target": "Strings/schedules/Sandy",
+         "FromFile": "Content/Strings/schedules/Sandy.json"
       },
 	  {
          "Action": "Load",
